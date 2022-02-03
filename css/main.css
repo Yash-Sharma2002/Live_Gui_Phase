@@ -1,0 +1,27 @@
+
+
+#chart_div {
+    height: 500px;
+}
+
+h1{
+    color: lightseagreen;
+    font-size: 30px;
+    margin: 3rem auto;
+    text-align: center;
+}
+.table-section{
+    align-items: center;
+    overflow: scroll;
+    text-align: center;
+    width: 1200px;
+    margin: 1rem auto;
+    height: 400px;
+border: .3px solid black;
+}
+.table-section table{
+    width: 100%;
+}
+.table-section .head{
+    font-size: 25px;
+}

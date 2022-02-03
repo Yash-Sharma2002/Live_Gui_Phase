@@ -1,0 +1,23 @@
+{
+  "name": "live-phase-gui",
+  "version": "1.0.0",
+  "description": "This is the website where we can see the line graphs of the 3 phases R,Y and B and also check there values",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/app.js -e express,hbs"
+  },
+  "author": "Yash Sharma",
+  "license": "ISC",
+  "dependencies": {
+    "ajax": "0.0.4",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "hbs": "^4.1.2",
+    "jquery": "^3.6.0",
+    "json": "^11.0.0",
+    "mongoose": "^6.0.7",
+    "node": "^16.9.1",
+    "nodemon": "^2.0.13"
+  }
+}
